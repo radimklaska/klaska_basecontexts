@@ -1,0 +1,13 @@
+name = Base contexts
+core = 7.x
+package = Klaska.net/shared
+version = 7.x-1.0
+project = klaska_basecontexts
+dependencies[] = context
+dependencies[] = ctools
+features[context][] = admin_page
+features[context][] = frontpage
+features[context][] = notfontpage
+features[context][] = sitewide
+features[ctools][] = context:context:3
+features[features_api][] = api:2
